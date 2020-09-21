@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                // Get some code from a GitHub repository
+                // Get some some code from a GitHub repository
                 git 'https://github.com/kevin-mashaba/Inaki.git'
 
                 // Run Maven on a Unix agent.
